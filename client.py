@@ -9,7 +9,7 @@ client.connect((SERVER_IP,PORT))
 
 #request = input('Enter the name of the image that you are looking for, from the server contents')
 
-file = open("cn_lab.jpg",'rb')
+file = open("image_name.jpg",'rb')
 
 image_data = file.read(2048)
 
